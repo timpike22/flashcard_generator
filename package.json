@@ -2,7 +2,7 @@
   "name": "flashcard_generator",
   "version": "1.0.0",
   "description": "generates flashcards to study",
-  "main": "basicCard.js",
+  "main": "flashCards.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/timpike22/flashcard_generator#readme",
   "dependencies": {
+    "inquirer": "^3.3.0",
     "require": "^2.4.20"
   }
 }
